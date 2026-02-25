@@ -11,7 +11,7 @@ Notes and Exerceies to understand Kotlin better.
 
 ## Run A Kotlin Program
 ```
-kotlinc <name of source file> -include-runtime -d hello.jar
+kotlinc <name of source file>.kt -include-runtime -d <name of source file>.jar
 ```
 The extension of a kotlin source file is "kt"
 
