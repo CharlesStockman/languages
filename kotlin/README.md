@@ -23,3 +23,11 @@ The jar file was created by kotlinc
 ```
 java -jar <jar file> 
 ```
+
+## Example of compiling and running a program
+
+```
+cd languages/kotlin/
+kotlinc helloWorld.kt -include-runtime -d helloWorld.jar
+java -jar helloWorld.jar
+```
