@@ -5,7 +5,6 @@ Notes and Exerceies to understand Kotlin better.
 ## Branches
 |Branch Name|Description|Created|
 |-----------|-----------|-------|
-|tour-notes-only | Branch with the notes section | No |
 |tour-notes-and-exercises | Branch with Notes and Exercises | No |
 |tour-notes-and-completed-exercises | Branch with notes and completed exercises | No
 
