@@ -18,8 +18,8 @@ fun main() {
     // The declaration with a ? can have null
     // asserts(countItemsInAllList(null) == 0 )
 
-    assert(countItemsInAllList(blueNumbers) == 0)
-    assert(countItemsInAllList(greenNumbers) == 3)
-    assert(countItemsInAllList(greenNumbers, redNumbers) == 5)
+    check(countItemsInAllList(blueNumbers) == 0)
+    check(countItemsInAllList(greenNumbers) == 3)
+    check(countItemsInAllList(greenNumbers, redNumbers) == 5)
     println("All test passed")
 }

@@ -10,12 +10,13 @@ package exercises.`03_Collections`
  */
 fun numberToWord(key: Int) : String? {
     val numberToWord = mapOf( 1 to "one", 2 to "two", 3 to "three")
-    return numberToWord[1]
+    return numberToWord[key]
 }
 
 fun main() {
-    assert(numberToWord(1)?.compareTo("one") == 0 )
-    assert(numberToWord(2)?.compareTo("two") == 0 )
-    assert(numberToWord(3)?.compareTo("three") == 0 )
+
+    check(numberToWord(1)?.compareTo("one") == 0 )
+    check(numberToWord(2)?.compareTo("two") == 0 )
+    check(numberToWord(3)?.compareTo("three") == 0 )
     println("All tests passed")
 }

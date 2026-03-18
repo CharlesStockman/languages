@@ -44,11 +44,11 @@ fun showWhen(button: String) : String {
 }
 
 fun main() {
-    assert( showWhen("A").compareTo("yes") == 0)
-    assert( showWhen("B").compareTo("no") == 0 )
-    assert( showWhen("X").compareTo("menu") == 0)
-    assert( showWhen("Y").compareTo("nothing") == 0)
-    assert( showWhen("E").compareTo("There is no such button") == 0)
+    check( showWhen("A").compareTo("yes") == 0)
+    check( showWhen("B").compareTo("no") == 0 )
+    check( showWhen("X").compareTo("menu") == 0)
+    check( showWhen("Y").compareTo("nothing") == 0)
+    check( showWhen("E").compareTo("There is no such button") == 0)
     println("All test passed ")
 }
 

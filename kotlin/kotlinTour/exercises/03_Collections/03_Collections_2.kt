@@ -19,8 +19,8 @@ fun contains(protocol: String, protocols: Set<String>) : Boolean {
 fun main() {
     val supported = setOf("HTTP", "HTTPS", "FTP")
 
-    assert(contains("smtp".uppercase(Locale.getDefault()), supported) == false)
-    assert(contains("http".uppercase(Locale.getDefault()), supported) == true)
+    check(contains("smtp".uppercase(Locale.getDefault()), supported) == false)
+    check(contains("http".uppercase(Locale.getDefault()), supported) == true)
     println("All test passed")
 
 }

@@ -8,7 +8,7 @@ package exercises.`02_standard`
  */
 fun whileCountPizzaSlices() : Int {
     var pizzaSlices = 0
-    while (pizzaSlices < 9 ) {
+    while (pizzaSlices != 8 ) {
         pizzaSlices += 1
     }
 
@@ -31,7 +31,9 @@ fun doWhileCountPizzaSlices() : Int {
 }
 
 fun main() {
-    assert(whileCountPizzaSlices() == 8 )
-    assert(doWhileCountPizzaSlices() == 8 )
+
+    println(whileCountPizzaSlices())
+    check(whileCountPizzaSlices() == 8 )
+    check(doWhileCountPizzaSlices() == 8 )
     println("All test passed.")
 }

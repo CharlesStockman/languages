@@ -1,37 +1,23 @@
 package exercises.`02_standard`
 
 /**
- * Using a while loop, count the number pizza slices to create a pizza pie.
- * There are eight slices per pie
+ * Create a simple game where you win if throwing two dice results in the same number.
+ * Use if to print You win :) if the dice match, or You lose :( otherwise.
  *
- * @return The number of pizza slices counted
- */
-fun whileCountPizzaSlices() : Int {
-    var pizzaSlices = 0
-    while (pizzaSlices < 9 ) {
-        pizzaSlices += 1
-    }
-
-    return pizzaSlices
-}
-
-/**
- * Using a do-while loop, count the number pizza slices to create a pizza pie.
- * There are eight slices per pie
+ * This exercise will be changed by removing random so that it will be deterministic and easier to test
+ * the code
  *
- * @return The number of pizza slices counted
+ * @param diceRollValue         The value of the first dice roll
+ * @param diceRollValueNext     The value of the second dice roll
+ * return (t) "You win :)" and (f) "You lose :("
  */
-fun doWhileCountPizzaSlices() : Int {
-    var pizzaSlices = 0
-    do {
-        pizzaSlices += 1
-    } while( pizzaSlices != 8 )
 
-    return pizzaSlices
+fun winOrLose(diceRollValue: Int, diceRollValueNext: Int) : String {
+    return if ( diceRollValue == diceRollValueNext ) "You win :)" else "You lose :("
 }
 
 fun main() {
-    assert(whileCountPizzaSlices() == 8 )
-    assert(doWhileCountPizzaSlices() == 8 )
-    println("All test passed.")
+    check( winOrLose(3, 2).compareTo("You lose :(") == 0)
+    check( winOrLose(3,3).compareTo("You win :)") == 0 )
+    println("All test passed")
 }
