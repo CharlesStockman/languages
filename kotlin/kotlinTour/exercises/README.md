@@ -21,8 +21,8 @@
 
 <b>Functional</b>
 <ol>
-  <li><a href="05_functional/05_functional_1.kt" target="_blank">Example lambda expression creatiing a value</a></li>
-  <li><a href="05_functional/05_functional_2.kt.kt" target="_blank">Example a labmda expression passed into a function </a></li>
+  <li><a href="05_functional/05_functional_01.kt" target="_blank">Example lambda expression creatiing a value</a></li>
+  <li><a href="05_functional/05_functional_02.kt.kt" target="_blank">Example a labmda expression passed into a function </a></li>
 </ol>
 
 <b>Object Orientated Programming</b>
