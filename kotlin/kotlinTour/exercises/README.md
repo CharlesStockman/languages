@@ -12,9 +12,9 @@
 <details>
 <summary><b>Collections</b></summary>
 <ol>
-  <li><a href="03_Collections/03_Collections_1.kt" target="_blank">Example of List</a></li>
-  <li><a href="03_Collections/03_Collections_2.kt" target="_blank">Example of Set</a></li>
-  <li><a href="03_Collections/03_Collections_3.kt" target="_blank">Example of Hash Table</a></li>
+  <li><a href="03_Collections/03_Collections_01.kt" target="_blank">Example of List</a></li>
+  <li><a href="03_Collections/03_Collections_02.kt" target="_blank">Example of Set</a></li>
+  <li><a href="03_Collections/03_Collections_03.kt" target="_blank">Example of Hash Table</a></li>
 </ol>
 </details>
 
