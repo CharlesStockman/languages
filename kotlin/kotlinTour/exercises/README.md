@@ -1,11 +1,11 @@
 <details>
 <summary><b>Standard Statements</b></summary>
 <ol>
-  <li><a href="02_standard/02_standard_1.kt" target="_blank">Example of an if/else</a></li>
-  <li><a href="02_standard/02_standard_2.kt" target="_blank">Example of a when statement</a></li>
-  <li><a href="02_standard/02_standard_3.kt" target="_blank">Example of do/while and while loop </a></li>
-  <li><a href="02_standard/02_standard_4.kt" target="_blank">FizzBuzz with functional string concatenation</a></li>
-  <li><a href="02_standard/02_standard_5.kt" target="_blank">Example of looping through a collection</a></li>
+  <li><a href="02_standard/02_standard_01.kt" target="_blank">Example of an if/else</a></li>
+  <li><a href="02_standard/02_standard_02.kt" target="_blank">Example of a when statement</a></li>
+  <li><a href="02_standard/02_standard_03.kt" target="_blank">Example of do/while and while loop </a></li>
+  <li><a href="02_standard/02_standard_04.kt" target="_blank">FizzBuzz with functional string concatenation</a></li>
+  <li><a href="02_standard/02_standard_05.kt" target="_blank">Example of looping through a collection</a></li>
 </ol>
 </details>
 
