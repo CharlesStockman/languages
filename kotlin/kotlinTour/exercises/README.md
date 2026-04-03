@@ -21,7 +21,7 @@
 <details>
 <summary><b>Functions</b></summary>
 <ol>
-  <li><a href="04_functions/04_Functions_1.kt" target="_blank">Example of Function Usage </a></li>
+  <li><a href="04_functions/04_functions_01.kt" target="_blank">Example of Function Usage </a></li>
 </ol>
 </details>
 
@@ -29,7 +29,7 @@
 <summary><b>Functional</b></summary>
 <ol>
   <li><a href="05_functional/05_functional_01.kt" target="_blank">Example lambda expression creatiing a value</a></li>
-  <li><a href="05_functional/05_functional_02.kt.kt" target="_blank">Example a labmda expression passed into a function </a></li>
+  <li><a href="05_functional/05_functional_02.kt" target="_blank">Example a labmda expression passed into a function </a></li>
 </ol>
 </details>
 
@@ -45,6 +45,6 @@
 <details>
 <summary><b>Null Safety</b></summary>
 <ol>
-  <li><a href="07_nullSafety/06_nullSafety_01.kt" target="_blank">NullSafety using the ? and ?: operator</a></li>
+  <li><a href="07_nullSafety/07_nullSafety_01.kt" target="_blank">NullSafety using the ? and ?: operator</a></li>
 </ol>
 </details>
