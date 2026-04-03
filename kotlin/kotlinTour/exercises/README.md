@@ -36,9 +36,9 @@
 <details>
 <summary><b>Object Orientated Programming</b></summary>
 <ol>
-  <li><a href="06_oop/05_oop_01.kt" target="_blank">Example of the data keyword</a></li>
-  <li><a href="06_oop/05_oop_02.kt" target="_blank">Example of a more complex keyword </a></li>
-  <li><a href="06_oop/05_oop_03.kt" target="_blank">Example of the data keyword combined with a class</a></li>
+  <li><a href="06_oop/06_oop_01.kt" target="_blank">Example of the data keyword</a></li>
+  <li><a href="06_oop/06_oop_02.kt" target="_blank">Example of a more complex keyword </a></li>
+  <li><a href="06_oop/06_oop_03.kt" target="_blank">Example of the data keyword combined with a class</a></li>
 </ol>
 </details>
 
