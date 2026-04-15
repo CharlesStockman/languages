@@ -32,6 +32,7 @@
   <li><a href="05_functional/05_functional_01.kt" target="_blank">Example lambda expression creatiing a value</a></li>
   <li><a href="05_functional/05_functional_02.kt" target="_blank">Example a labmda expression passed into a function </a></li>
   <li><a href="05_functional/05_functional_03.kt" target="_blank">Example of the Scope Function let.</a></li>
+  <li><a href="05_functional/05_functional_04.kt" target="_blank">Example of the Scope Functions apply and also"</a></li>
 </ol>
 </details>
 
